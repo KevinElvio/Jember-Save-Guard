@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:jember_save_guard/pages/detailNews.dart';
 // import 'package:jember_save_guard/pages/detail.dart';
 // import 'package:jember_save_guard/pages/education.dart';
-import 'package:jember_save_guard/pages/news.dart';
+// import 'package:jember_save_guard/pages/news.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: News(),
+      home: detailNews(),
     );
   }
 }
