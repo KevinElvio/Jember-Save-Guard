@@ -1,9 +1,9 @@
-  import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:jember_save_guard/widget/berita.dart';
+import 'package:jember_save_guard/widget/news.dart';
 
-class Education extends StatelessWidget {
-  const Education({super.key});
+class News extends StatelessWidget {
+  const News({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -63,14 +63,14 @@ class Education extends StatelessWidget {
                   ),
                   child: ListTile(
                     title: Text(
-                      "Emergency Education",
+                      "News",
                       style: GoogleFonts.poppins(
-                          fontSize: 13,
-                          fontWeight: FontWeight.w700,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500,
                           color: Colors.white),
                     ),
                     trailing: const Icon(
-                      Icons.book,
+                      Icons.newspaper_outlined,
                       color: Colors.white,
                       size: 42,
                     ),
@@ -79,57 +79,73 @@ class Education extends StatelessWidget {
                 const SizedBox(
                   height: 16,
                 ),
-                berita(
-                  gambar: "lib/asets/gambar1.png",
-                  title:
-                      "Hal-hal yang harus kamu lakukan apabila terdapat seseorang yang kejang !",
-                  nama: "Matt Villano",
-                ),
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
                 const SizedBox(
                   height: 16,
                 ),
-                berita(
-                  gambar: "lib/asets/gambar1.png",
-                  title:
-                      "Hal-hal yang harus kamu lakukan apabila terdapat seseorang yang kejang !",
-                  nama: "Matt Villano",
-                ),
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
                 const SizedBox(
                   height: 16,
                 ),
-                berita(
-                  gambar: "lib/asets/gambar1.png",
-                  title:
-                      "Hal-hal yang harus kamu lakukan apabila terdapat seseorang yang kejang !",
-                  nama: "Matt Villano",
-                ),
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
                 const SizedBox(
                   height: 16,
                 ),
-                berita(
-                  gambar: "lib/asets/gambar1.png",
-                  title:
-                      "Hal-hal yang harus kamu lakukan apabila terdapat seseorang yang kejang !",
-                  nama: "Matt Villano",
-                ),
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
                 const SizedBox(
                   height: 16,
                 ),
-                berita(
-                  gambar: "lib/asets/gambar1.png",
-                  title:
-                      "Hal-hal yang harus kamu lakukan apabila terdapat seseorang yang kejang !",
-                  nama: "Matt Villano",
-                ),
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
                 const SizedBox(
                   height: 16,
                 ),
-                berita(
-                  gambar: "lib/asets/gambar1.png",
-                  title:
-                      "Hal-hal yang harus kamu lakukan apabila terdapat seseorang yang kejang !",
-                  nama: "Matt Villano",
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
+                const SizedBox(
+                  height: 16,
                 ),
+                news(
+                    gambar: "lib/asets/gambar3.png",
+                    title:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !",
+                    nama: "by Ryan Browne - Sabtu, 27 April 2024",
+                    deskripsi:
+                        "Mafia begal Ditangkap pagi ini pada pukul 09.00 , Kapolsek Jember siapkan pernyataan untuk pers !"),
               ],
             ),
           ],
@@ -145,7 +161,7 @@ class Education extends StatelessWidget {
                     color: Color.fromRGBO(196, 196, 196, 2)),
                 label: "Zone"),
             BottomNavigationBarItem(
-                icon: Icon(Icons.book, color: Color.fromRGBO(0, 74, 173, 1)),
+                icon: Icon(Icons.book, color: Color.fromRGBO(196, 196, 196, 2)),
                 label: "Education"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.home_filled,
@@ -153,7 +169,7 @@ class Education extends StatelessWidget {
                 label: "Home"),
             BottomNavigationBarItem(
                 icon: Icon(Icons.newspaper_rounded,
-                    color: Color.fromRGBO(196, 196, 196, 2)),
+                    color: Color.fromRGBO(0, 74, 173, 1)),
                 label: "News"),
             BottomNavigationBarItem(
                 icon: Icon(
